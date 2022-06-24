@@ -1,0 +1,24 @@
+libraries:
+  test:
+    name: Test Library
+    description: This is a test library.
+    assets:
+      nested:
+        name: Nested asset
+        description: This asset is defined in the library.
+        status: stable
+        type: component
+        platform: web
+      reference-local:
+        $ref: "#/assets/reference-local"
+      reference-local-subdirectory:
+        $ref: "components/my-component/carbon.yml#/assets/reference-local-subdirectory"
+      reference-absolute:
+        $ref: "https://gist.githubusercontent.com/mattrosno/da6e10a986139512f372ed81694b17ce/raw/8312abd7f322ec009cd4ddeb9f2714ebf5cae9b2/carbon.yml#/assets/reference-absolute"
+assets:
+  reference-local:
+    name: Reference local asset
+    description: This asset is defined in the assets array and referenced in the library.
+    status: stable
+    type: component
+    platform: web

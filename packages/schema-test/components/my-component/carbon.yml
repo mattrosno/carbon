@@ -1,0 +1,7 @@
+assets:
+  reference-local-subdirectory:
+    name: Reference local subdirectory asset
+    description: This asset is defined in subdirectory in the library.
+    status: stable
+    type: component
+    platform: web
