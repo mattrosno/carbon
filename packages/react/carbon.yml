@@ -154,7 +154,6 @@ assets:
     docs:
       usagePath: https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/contained-list/usage.mdx
       stylePath: https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/contained-list/style.mdx
-      accessibilityPath: https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/contained-list/accessibility.mdx
       overviewPath: ./src/components/ContainedList/docs/overview.mdx
   content-switcher:
     status: stable
