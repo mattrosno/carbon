@@ -135,14 +135,22 @@ assets:
     docs:
       overviewPath: ./src/components/ComposedModal/docs/overview.mdx
   contained-list:
-    status: stable
-    externalDocsUrl: https://www.carbondesignsystem.com/components/contained-list/usage
+    name: Contained list
+    description: Contained lists group content that is similar or related and can contain read-only or interactive information.
+    status: experimental
+    type: component
+    tags:
+      - data-display
+      - content-element
     framework: react
+    platform: web
+    thumbnailPath: ./thumbnails/contained-list.svg
+    externalDocsUrl: https://www.carbondesignsystem.com/components/contained-list/usage
     demoLinks:
       - type: storybook
         name: Storybook
         action: link
-        url: https://react.carbondesignsystem.com/?path=/docs/components-containedlist
+        url: https://react.carbondesignsystem.com/?path=/docs/experimental-unstable-containedlist--default
     docs:
       usagePath: https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/contained-list/usage.mdx
       stylePath: https://github.com/carbon-design-system/carbon-website/blob/main/src/pages/components/contained-list/style.mdx
